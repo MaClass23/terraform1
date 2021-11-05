@@ -1,7 +1,7 @@
 resource "google_compute_instance" "jenkins1" {
   name         = "jenkins1"
   machine_type = "e2-medium"
-  zone         = "us-central1-a"
+  zone         = "us-central1-b"
 
 
   boot_disk {
@@ -22,7 +22,7 @@ resource "google_compute_instance" "jenkins1" {
 resource "google_compute_instance" "nexus1" {
   name         = "nexus1"
   machine_type = "e2-medium"
-  zone         = "us-central1-a"
+  zone         = "us-central1-f"
 
 
   boot_disk {
