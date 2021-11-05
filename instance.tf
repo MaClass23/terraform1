@@ -1,5 +1,5 @@
-resource "google_compute_instance" "jenkins" {
-  name         = "jenkins"
+resource "google_compute_instance" "jenkins1" {
+  name         = "jenkins1"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
@@ -19,8 +19,8 @@ resource "google_compute_instance" "jenkins" {
   }
 }
 
-resource "google_compute_instance" "nexus" {
-  name         = "nexus"
+resource "google_compute_instance" "nexus1" {
+  name         = "nexus1"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
